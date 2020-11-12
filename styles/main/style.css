@@ -19,7 +19,7 @@
 body
 {
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
 
 }
 
@@ -62,8 +62,11 @@ h1.header
 p.header 
 {
 
-    /*display: inline-flex;*/
     color: var(--white_colors_for_dark_backgrounds);
     text-align: center;
+    font-size: 1.1rem;    
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding-top: 1%;
 
 }
