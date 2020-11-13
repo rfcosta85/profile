@@ -1,2 +1,78 @@
 @charset "UTF-8";
 
+@media only screen and (min-width: 769px) and (max-width: 1023px)
+{
+
+    img.main_menu_button 
+    {
+
+        height: 18px;
+
+    }
+
+    div.dropdown:hover .dropdown-child
+    {
+
+        display: flex;
+
+    }
+
+    span#name
+    {
+
+        font-size: 26px;
+
+    }
+
+    a.navigator 
+    {
+
+        font-size: 0.9rem;
+
+    }
+
+    h2.header 
+    {
+
+        font-size: 1.5rem;
+
+    }
+
+    h1.header 
+    {
+
+        font-size: 2.4rem;
+
+    }
+
+    p.header 
+    {
+
+        font-size: 0.8rem;
+
+    }
+
+    div.box 
+    {
+
+        margin-top: 6%; 
+        margin-left: 39%;       
+
+    }
+
+    button 
+    {
+
+        height: 50px;
+        width: 400%;
+
+    }
+
+    span#twitter
+    {
+
+        padding-left: 36%;
+
+    }
+
+}
