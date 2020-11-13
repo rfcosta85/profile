@@ -69,9 +69,9 @@ div.dropdown-child a
 {
 
     color: var(--white_colors_for_dark_backgrounds);
-    padding: 20px;
+    padding: 8px;    
     text-decoration: none;
-    display: block;
+    display: block;    
 
 }
 
@@ -117,9 +117,10 @@ h2.header
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2.2rem;
-    padding-top: 18vh;    
+    padding-top: 16vh;    
 
 }
+
 
 h1.header
 {
@@ -129,7 +130,7 @@ h1.header
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 4.8rem;
-    padding-top: 1.2vh;
+    padding-top: 1vh;
 
 }
 
@@ -138,14 +139,14 @@ p.header
 
     color: var(--white_colors_for_dark_backgrounds);
     text-align: center;
-    font-size: 1.3rem;    
+    font-size: 1.1rem;    
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     padding-top: 1%;
 
 }
 
-div#button
+div.box
 {
 
     margin-left: 43%;
@@ -155,7 +156,7 @@ div#button
 
 }
 
-input.button
+button
 {
 
     width: 280%;
@@ -165,14 +166,110 @@ input.button
     letter-spacing: 0.2rem;
     color: var(--white_colors_for_dark_backgrounds);
     text-transform: uppercase;
-    border-color: gray;
+    border-color: gray;    
     
 }
 
-input.button:hover 
+
+a#about_me 
+{
+
+    text-decoration: none;
+    color: var(--white_colors_for_dark_backgrounds);
+
+}
+
+i 
+{
+
+    margin-left: 2%;    
+    color: var(--white_colors_for_dark_backgrounds);
+
+}
+
+button:hover 
 {
 
     border-color: var(--pink_colors_for_dark_backgrounds);
+    transition: 0.3s ease;
+    -webkit-transform: scale(1.1);
+
+}
+
+span#twitter
+{
+
+    padding-left: 40%;
+
+}
+
+img.twitter 
+{
+
+    height: 25px;    
+    background-color: var(--white_colors_for_dark_backgrounds);
+    border-radius: 50%;
+    padding: 0.4%;
+
+}
+
+span#linkedin
+{
+
+    padding-left: 3%;    
+
+}
+
+img.linkedin
+{
+
+    height: 24px;
+    background-color: var(--white_colors_for_dark_backgrounds);
+    border-radius: 10%;
+    padding: 0.4%;    
+
+}
+
+span#github
+{
+
+    padding-left: 3%;
+
+}
+
+img.github
+{
+
+    height: 25px;
+    background-color: var(--white_colors_for_dark_backgrounds);
+    border-radius: 50%;
+    padding: 0.4%;
+
+}
+
+span#mail
+{
+
+    padding-left: 3%;
+
+}
+
+img.mail
+{
+
+    height: 25px;
+    background-color: var(--white_colors_for_dark_backgrounds);
+    border-radius: 50%;
+    padding: 0.3%;
+
+}
+
+img.twitter:hover, img.linkedin:hover, img.github:hover, img.mail:hover 
+{
+
+    background-color: var(--pink_colors_for_dark_backgrounds);
+    transition: 0.2s ease-in;
+    -webkit-transform: scale(1.3);
 
 }
 

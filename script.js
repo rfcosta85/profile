@@ -40,3 +40,28 @@ function getScrollTopByHref(element)
 
 /*Smooth to header's button*/
 
+const button_profile = document.querySelectorAll('.box a');
+
+button_profile.forEach(item =>{
+
+    item.addEventListener('click', scrollToIdOnclick);
+
+})
+
+function scrollToIdOnclick(events)
+{
+
+    events.preventDefault();
+    const elements = events.target;    
+    const to = document.querySelector("#about").offsetTop;
+    
+    window.scroll({
+
+        top: to,
+
+        behavior: "smooth",
+
+    });
+
+}
+
