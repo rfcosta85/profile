@@ -79,7 +79,7 @@ div.dropdown:hover .dropdown-child
 {
     
     display: block;
-    position: fixed;
+    position: absolute;
     
 }
 
