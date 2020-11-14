@@ -246,6 +246,7 @@
     {
 
         height: 18px;
+        
 
     }
 
@@ -406,6 +407,13 @@
 
         font-size: 2.4rem;
         padding-top: 1vh;
+
+    }
+
+    span#pqp 
+    {
+
+        white-space: pre-line;
 
     }
 
