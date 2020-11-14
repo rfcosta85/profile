@@ -1,15 +1,119 @@
 @charset "UTF-8";
 
-/*Configurando telas mobile*/
+@media only screen and (min-width: 280px) and (max-width: 319px)
+{
 
-@media only screen and (max-width: 768px)
+    header 
+    {
+
+        height: 500px;
+
+    }
+
+    img.main_menu_button 
+    {
+
+        height: 16px;
+
+    }
+
+    span#name 
+    {
+
+        font-size: 24px;
+
+    }
+
+    a.navigator 
+    {
+
+        font-size: 0.7rem;
+
+    }
+
+    h2.header 
+    {
+
+        font-size: 1.3rem;
+        padding-top:10vh;
+
+    }
+
+    h1.header 
+    {
+
+        font-size: 2rem;
+
+    }
+
+    p.header 
+    {
+
+        font-size: 0.75rem;
+        margin-top: 1vh;
+
+    }
+
+    div.box 
+    {
+
+        margin-top: 10%;
+        margin-left: 30%;
+
+    }
+
+    button 
+    {
+        
+        width: 850%;
+
+    }
+
+    div#icons 
+    {
+
+        margin-left: 29%;
+
+    }
+
+    img.twitter 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.linkedin
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.github 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.mail 
+    {
+
+        padding: 0.9%;
+
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width:374px)
 {
 
     header
     {
 
         width: 100%;
-        height: 400px;
+        height: 500px;
         
 
     }   
@@ -45,15 +149,15 @@
     h2.header
     {
 
-        font-size: 1rem;
-        padding-top: 10vh;
+        font-size: 1.2rem;
+        padding-top: 8vh;
 
     }
 
     h1.header
     {
 
-        font-size: 1.8rem;
+        font-size: 2rem;
         padding-top: 1vh;
 
     }
@@ -61,8 +165,9 @@
     p.header
     {
 
-        font-size: 0.5rem;
-        display: flex;
+        font-size: 0.9rem;
+        margin-top: 1.2vh;
+        
 
     }
 
@@ -84,44 +189,412 @@
 
     }
 
-    span#twitter
+    div#icons
     {
 
-        padding-left: 29%;       
+        width: 50%;
+        margin-left: 30%;
 
     }
 
-    img.twitter
+    img.twitter 
     {
 
-        height: 20px;
-        margin-bottom: 2%;
+        padding: 0.9%;
 
     }
 
-    img.linkedin 
+    img.linkedin
     {
 
-        height: 19px;
-        margin-bottom: 2%;
+        padding: 0.9%;
 
     }
 
     img.github 
     {
 
-        height: 21px;
-        margin-bottom: 2%;
+        padding: 0.9%;
 
     }
 
     img.mail 
     {
 
-        height: 21px;
-        margin-bottom: 2%;
+        padding: 0.9%;
 
     }
 
+}
+
+/* Mobile medium version */
+
+@media only screen and (min-width: 375px) and (max-width: 424px)
+{
+
+    header
+    {
+
+        width: 100%;
+        height: 520px;
+        
+
+    }    
+    
+    
+    img.main_menu_button
+    {
+
+        height: 18px;
+
+    }
+
+    div.dropdown:hover .dropdown-child
+    {
+
+        display: flex;
+
+    }
+
+    span#name 
+    {
+
+        font-size: 26px;
+
+    }
+
+    a.navigator 
+    {
+
+        font-size: 0.7rem;
+
+    }
+
+    h2.header
+    {
+
+        font-size: 1.32rem;
+        padding-top: 8vh;
+
+    }
+
+    h1.header
+    {
+
+        font-size: 2.12rem;
+        padding-top: 1vh;
+
+    }
+
+    p.header
+    {
+
+        font-size: 1.12rem;
+        margin-top: 1.2vh;
+        
+
+    }
+
+    div.box
+    {
+
+        margin-top: 8%;
+        margin-left: 32%;
+        
+
+    }
+
+    button 
+    {
+
+        height: 45px;
+        width: 750%;
+        font-size: 0.6rem;
+
+    }
+
+    div#icons
+    {
+
+        width: 50%;
+        margin-left: 32%;
+
+    }
+
+    img.twitter 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.linkedin
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.github 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.mail 
+    {
+
+        padding: 0.9%;
+
+    }
+
+}
+
+/* mobile large version */
+
+@media only screen and (min-width: 425px) and (max-width: 767px)
+{
+
+    header
+    {
+
+        width: 100%;
+        height: 550px;        
+
+    }    
+    
+    
+    img.main_menu_button
+    {
+
+        height: 18px;
+
+    }
+
+    div.dropdown:hover .dropdown-child
+    {
+
+        display: flex;
+
+    }
+
+    span#name 
+    {
+
+        font-size: 26px;
+
+    }
+
+    a.navigator 
+    {
+
+        font-size: 0.7rem;
+
+    }
+
+    h2.header
+    {
+
+        font-size: 1.6rem;
+        padding-top: 8vh;
+
+    }
+
+    h1.header
+    {
+
+        font-size: 2.4rem;
+        padding-top: 1vh;
+
+    }
+
+    p.header
+    {
+
+        font-size: 1.35rem;
+        margin-top: 1.2vh;
+        
+
+    }
+
+    div.box
+    {
+
+        margin-top: 8%;
+        margin-left: 32%;
+        
+
+    }
+
+    button 
+    {
+
+        height: 45px;
+        width: 750%;
+        font-size: 0.6rem;
+
+    }
+
+    div#icons
+    {
+
+        width: 50%;
+        margin-left: 34%;
+
+    }
+
+    img.twitter 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.linkedin
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.github 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.mail 
+    {
+
+        padding: 0.9%;
+
+    }
+
+}
+
+/*tablet version*/
+
+@media only screen and (min-width: 768px) and (max-width: 768px)
+{
+
+    header
+    {
+
+        width: 100%;
+        height: 550px;
+        
+
+    }    
+    
+    
+    img.main_menu_button
+    {
+
+        height: 18px;
+
+    }
+
+    div.dropdown:hover .dropdown-child
+    {
+
+        display: flex;
+
+    }
+
+    span#name 
+    {
+
+        font-size: 26px;
+
+    }
+
+    a.navigator 
+    {
+
+        font-size: 0.7rem;
+
+    }
+
+    h2.header
+    {
+
+        font-size: 1.2rem;
+        padding-top: 8vh;
+
+    }
+
+    h1.header
+    {
+
+        font-size: 2rem;
+        padding-top: 1vh;
+
+    }
+
+    p.header
+    {
+
+        font-size: 0.9rem;
+        margin-top: 1.2vh;
+        
+
+    }
+
+    div.box
+    {
+
+        margin-top: 8%;
+        margin-left: 32%;
+        
+
+    }
+
+    button 
+    {
+
+        height: 45px;
+        width: 400%;
+        font-size: 0.6rem;
+        margin-left: 150%;
+
+    }
+
+    div#icons
+    {
+
+        width: 50%;
+        margin-left: 39%;
+
+    }
+
+    img.twitter 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.linkedin
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.github 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.mail 
+    {
+
+        padding: 0.9%;
+
+    }
 
 }
