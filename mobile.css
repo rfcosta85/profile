@@ -6,7 +6,7 @@
     header 
     {
 
-        height: 500px;
+        height: 100vh;
 
     }
 
@@ -113,7 +113,7 @@
     {
 
         width: 100%;
-        height: 500px;
+        height: 100vh;
         
 
     }   
@@ -236,7 +236,7 @@
     {
 
         width: 100%;
-        height: 520px;
+        height: 100vh;
         
 
     }    
@@ -360,7 +360,7 @@
     {
 
         width: 100%;
-        height: 550px;        
+        height: 100vh;        
 
     }    
     
@@ -481,7 +481,7 @@
     {
 
         width: 100%;
-        height: 550px;        
+        height: 100vh;        
 
     }    
     
@@ -605,7 +605,7 @@
     {
 
         width: 100%;
-        height: 550px;
+        height: 100vh;
         
 
     }    
@@ -614,7 +614,7 @@
     img.main_menu_button
     {
 
-        height: 18px;
+        height: 30px;
 
     }
 
@@ -628,38 +628,38 @@
     span#name 
     {
 
-        font-size: 26px;
+        font-size: 38px;
 
     }
 
     a.navigator 
     {
 
-        font-size: 0.7rem;
+        font-size: 1.2rem;
 
     }
 
     h2.header
     {
 
-        font-size: 1.2rem;
-        padding-top: 8vh;
+        font-size: 1.8rem;
+        padding-top: 18vh;
 
     }
 
     h1.header
     {
 
-        font-size: 2rem;
-        padding-top: 1vh;
+        font-size: 3.6rem;
+        padding-top: 1.5vh;
 
     }
 
     p.header
     {
 
-        font-size: 0.9rem;
-        margin-top: 1.2vh;
+        font-size: 1.2rem;
+        margin-top: 1.9vh;
         
 
     }
@@ -676,10 +676,10 @@
     button 
     {
 
-        height: 45px;
-        width: 400%;
-        font-size: 0.6rem;
-        margin-left: 150%;
+        height: 85px;
+        width: 600%;
+        font-size: 1.3rem;
+        margin-left: 70%;
 
     }
 
@@ -688,34 +688,35 @@
 
         width: 50%;
         margin-left: 39%;
+        margin-top: 3%;
 
     }
 
     img.twitter 
     {
 
-        padding: 0.9%;
+        padding: 1.2%;
 
     }
 
     img.linkedin
     {
 
-        padding: 0.9%;
+        padding: 1.2%;
 
     }
 
     img.github 
     {
 
-        padding: 0.9%;
+        padding: 1.2%;
 
     }
 
     img.mail 
     {
 
-        padding: 0.9%;
+        padding: 1.2%;
 
     }
 
