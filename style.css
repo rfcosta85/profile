@@ -19,7 +19,7 @@
 body
 {
 
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);   
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.096);   
 
 }
 
@@ -284,10 +284,154 @@ img.twitter:hover, img.linkedin:hover, img.github:hover, img.mail:hover
 
 }
 
-section, article
+article#about
 {
 
-    height: 200px;    
+    height: 150vh;    
 
 }
+
+article#sumary
+{
+
+    height: 100vh;
+    background-color: rgba(211, 211, 211, 0.404);
+
+}
+
+div#about_titles 
+{
+
+    width: 100%;
+    height: 90px;    
+    margin-top: 2%;
+
+}
+
+h2.about
+{
+
+    text-align: center;
+    color: var(--pink_colors_for_dark_backgrounds);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+    padding-top: 1%;    
+
+}
+
+h1.about 
+{
+
+    text-align: center;
+    padding-top: 1%;
+    font-size: 2.1rem;
+
+}
+
+#profile_picture
+{
+
+    width: 9%;
+    height: 80px;
+    margin: auto;
+    margin-top: 5vh;
+
+}
+
+.profile_picture
+{
+
+    height: 130px;
+    border-radius: 50%;
+    
+
+}
+
+#profile_description 
+{
+
+    width: 60%;
+    height: 180px;    
+    margin: auto;
+    margin-top: 15vh;
+
+}
+
+.profile_description
+{
+
+    text-align: center;
+    color: rgba(0, 0, 0, 0.788);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.041);  
+    font-size: 1.5rem;
+    text-justify: auto;
+    margin-top: 5vh;
+
+}
+
+div#bio 
+{
+
+    width: 100%;
+    height: 90px;    
+    margin-top: 2%;
+
+}
+
+h2.credentials
+{
+
+    text-align: center;
+    color: var(--pink_colors_for_dark_backgrounds);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+    padding-top: 20vh;    
+
+}
+
+h1.credentials
+{
+
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 2.1rem;
+
+}
+
+#scholarship 
+{
+
+    width: 60%;
+    height: 180px;    
+    margin: auto;
+    margin-top: 23vh;
+
+}
+
+.scholarship
+{
+
+    text-align: center;
+    color: rgba(0, 0, 0, 0.788);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.041);  
+    font-size: 1.5rem;
+    text-justify: auto;
+    margin-top: 5vh;
+
+}
+
+.xp
+{
+
+    text-align: center;
+    color: var(--pink_colors_for_dark_backgrounds);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.041);  
+    font-size: 1.8rem;
+    text-justify: auto;
+    margin-top: 10vh;
+
+}
+
 
