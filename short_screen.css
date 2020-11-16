@@ -6,7 +6,7 @@
     header
     {
 
-        height: 100vh;
+        height: 130vh;
 
     }
     
@@ -70,8 +70,19 @@
     button 
     {
 
+        font-size: 0.8rem;
         height: 50px;
         width: 400%;
+        margin-left: 25%;      
+
+    }
+
+    div#icons
+    {
+
+        width: 50%;
+        margin-left: 22%;
+        margin-top: 3%;
 
     }
 
@@ -81,5 +92,6 @@
         padding-left: 36%;
 
     }
+
 
 }
