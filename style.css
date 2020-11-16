@@ -14,13 +14,14 @@
 
     --white_colors_for_dark_backgrounds: rgba(245, 245, 245, 0.938);
     --pink_colors_for_dark_backgrounds: rgba(246, 85, 120, 0.933);
+    --text_colors_pages: rgba(0, 0, 0, 0.404); 
 
 }
 
 body
 {
 
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.096);   
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.096);     
 
 }
 
@@ -288,7 +289,7 @@ img.twitter:hover, img.linkedin:hover, img.github:hover, img.mail:hover
 article#about
 {
 
-    height: 150vh;    
+    height: 430vh;    
 
 }
 
@@ -363,9 +364,9 @@ h1.about
 {
 
     text-align: center;
-    color: rgba(0, 0, 0, 0.788);
+    color: rgba(0, 0, 0, 0.404);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.041);  
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-justify: auto;
     margin-top: 5vh;
 
@@ -435,4 +436,176 @@ h1.credentials
 
 }
 
+div.templates
+{
+
+   width: 100%;
+   height: auto;
+   margin: 60% auto;
+   margin-left: 28%;   
+
+}
+
+.skills_columns
+{
+
+    grid-template-columns: repeat(2,minmax(250px, 1fr));    
+    display: grid;   
+    grid-gap: 20px;
+    padding-right: 40%;
+
+}
+
+h2.template_titles 
+{
+
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.041);
+    font-size: 1.25rem;
+    
+}
+
+p.perfil
+{
+
+    width: 60%;
+    text-align: left;  
+    justify-content: left; 
+    font-size: 1.15rem; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.041);
+    color: var(--text_colors_pages);
+    
+
+}
+
+.descriptions
+{
+
+    grid-template-columns: repeat(2,minmax(250px, 1fr));    
+    display: grid;
+    grid-gap: 20px;
+
+}
+
+.personal_titles 
+{
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.041);
+    font-size: 1.15rem;      
+
+}
+
+h2.personal_titles 
+{
+
+    letter-spacing: 0.2rem;
+    font-size: 1.25rem;
+    padding-top: 3%; 
+      
+
+} 
+
+p.personal_titles
+{
+
+    color: var(--text_colors_pages);
+    margin-top: 1.5%;
+    width: 60%;
+
+}
+
+.skill_bars 
+{
+
+    list-style: none;
+    margin: 6rem 0 3rem;
+
+}
+
+.skill_bars li 
+{
+
+    height: 0.5rem;
+    background: #a1a1a1;
+    width: 69%;
+    margin-bottom: 6rem;
+    padding: 0;
+    position: relative;
+
+}
+
+.skill_bars li strong
+{
+
+    position: absolute;
+    left: 0;
+    top: -3rem;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+
+}
+
+.skill_bars li .progress
+{
+
+    background: #313131;
+    position: relative;
+    height: 100%;
+
+}
+
+.skill_bars li .progress span 
+{
+
+    position: absolute;
+    right: 0;
+    top: -3.6rem;
+    display: block;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1;
+    background: #313131;
+    padding: .6rem .6rem;
+    border-radius: 3px;
+
+}
+
+.skill_bars li .progress span::after 
+{
+
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    margin-left: -5px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 5px solid #313131;
+    content: "";
+
+}
+
+.skill_bars li .percent5   { width: 5%; }
+.skill_bars li .percent10  { width: 10%; }
+.skill_bars li .percent15  { width: 15%; }
+.skill_bars li .percent20  { width: 20%; }
+.skill_bars li .percent25  { width: 25%; }
+.skill_bars li .percent30  { width: 30%; }
+.skill_bars li .percent35  { width: 35%; }
+.skill_bars li .percent40  { width: 40%; }
+.skill_bars li .percent45  { width: 45%; }
+.skill_bars li .percent50  { width: 50%; }
+.skill_bars li .percent55  { width: 55%; }
+.skill_bars li .percent60  { width: 60%; }
+.skill_bars li .percent65  { width: 65%; }
+.skill_bars li .percent70  { width: 70%; }
+.skill_bars li .percent75  { width: 75%; }
+.skill_bars li .percent80  { width: 80%; }
+.skill_bars li .percent85  { width: 85%; }
+.skill_bars li .percent90  { width: 90%; }
+.skill_bars li .percent95  { width: 95%; }
+.skill_bars li .percent100 { width: 100%; }
 
