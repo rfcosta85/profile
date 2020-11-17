@@ -65,3 +65,30 @@ function scrollToIdOnclick(events)
 
 }
 
+/*Smooth to contact's button*/
+
+const button_contact = document.querySelectorAll('.contact_button');
+
+button_contact.forEach(item =>{
+
+    item.addEventListener('click', scrollToIdOnclickSectionAbout);
+
+})
+
+function scrollToIdOnclickSectionAbout(events)
+{
+
+    events.preventDefault();
+    const elements = events.target;
+    const to = document.querySelector("#contacts").offsetTop;
+
+    window.scroll({
+
+        top: to,
+
+        behavior: "smooth"
+
+    });
+
+}
+

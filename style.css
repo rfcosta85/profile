@@ -526,11 +526,19 @@ p.personal_titles
 
 }
 
+.portuguese
+{
+
+    margin-top: -195%;
+
+}
+
 .skill_bars_portuguese 
 {
 
     list-style: none;
     margin: 6rem 0 3rem;
+    display: block;   
 
 }
 
@@ -539,7 +547,7 @@ p.personal_titles
 
     height: 0.5rem;
     background: #a1a1a1;
-    width: 69%;
+    width: 59%;
     margin-bottom: 6rem;
     padding: 0;
     position: relative;
@@ -555,7 +563,7 @@ p.personal_titles
     color: #313131;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 2.4rem;
 
 }
@@ -577,8 +585,8 @@ p.personal_titles
     top: -3.6rem;
     display: block;
     color: white;
-    font-size: 0.9rem;
-    line-height: 1;
+    font-size: 0.8rem;
+    line-height: 0.5;
     background: #313131;
     padding: .6rem .6rem;
     border-radius: 3px;
@@ -598,9 +606,6 @@ p.personal_titles
     content: "";
 
 }
-
-
-
 
 .skill_bars_portuguese li .percent5   { width: 5%; }
 .skill_bars_portuguese li .percent10  { width: 10%; }
@@ -623,3 +628,31 @@ p.personal_titles
 .skill_bars_portuguese li .percent95  { width: 95%; }
 .skill_bars_portuguese li .percent100 { width: 100%; }
 
+.button_contact
+{
+
+    width: 15%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    color: var(--white_colors_for_dark_backgrounds);
+    text-transform: uppercase;
+    border-color: gray; 
+    margin-left: 15%; 
+
+}
+a#talk
+{
+
+    text-decoration: none;
+    color: #313131;
+
+}
+
+a#talk:hover
+{
+
+    color: var(--pink_colors_for_dark_backgrounds);
+
+}
