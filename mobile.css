@@ -267,6 +267,51 @@
 
     }
 
+    /*page about*/
+
+    article#about
+    {
+
+        height: 800vh;
+
+    }
+
+    article#sumary 
+    {
+
+        height: 200vh;
+
+    }
+
+    div#about_titles
+    {
+
+        margin-top: 12%;
+
+    }
+
+    h2.about 
+    {
+
+        
+
+    }
+
+    #profile_picture 
+    {
+
+        width: 40%;
+
+    }
+
+    div.templates 
+    {
+
+        margin: 1180% auto;
+
+    }
+    
+
 }
 
 /* medium mobile*/
