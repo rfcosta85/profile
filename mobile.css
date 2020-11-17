@@ -272,7 +272,7 @@
     article#about
     {
 
-        height: 800vh;
+        height: 730vh;
 
     }
 
@@ -288,14 +288,7 @@
 
         margin-top: 12%;
 
-    }
-
-    h2.about 
-    {
-
-        
-
-    }
+    }    
 
     #profile_picture 
     {
@@ -304,12 +297,180 @@
 
     }
 
+    #profile_description 
+    {
+
+        width: 70%;
+
+    }
+
+    .profile_description 
+    {
+
+        font-size: 1.2rem;
+
+    }
+
     div.templates 
     {
 
-        margin: 1180% auto;
+        display: none;              
 
     }
+    
+    .profile_mobile 
+    {
+
+        display: flex;
+        margin-top: 700%;
+        width: 100%;
+        margin-left: 37%;
+        
+
+    }    
+
+    .perfil
+    {
+
+        margin-left: -43%;
+        margin-top: 15%;       
+
+    }
+
+    .personal_informations 
+    {
+
+       position: absolute; 
+       margin-top: 70%;
+       margin-left: -15%;
+       
+
+    }
+
+    h2.personal_titles 
+    {
+
+        font-size: 1rem;
+
+    }
+
+    p.personal_titles 
+    {
+
+        font-size: 0.9rem;
+
+    }
+
+    /*Languages list*/
+
+    #owl-slider-languages
+    {
+
+        margin-top: 210%;
+        margin-left: -60%;
+
+    }
+
+    .skill_bars_portuguese 
+    {
+    
+        list-style: none;
+        margin: 6rem 0 3rem;
+        display: block;   
+    
+    }
+
+    .skill_bars_portuguese li 
+    {
+
+        height: 0.5rem;
+        background: #a1a1a1;
+        width: 130%;
+        margin-bottom: 6rem;
+        padding: 0;
+        position: relative;
+
+    }
+
+    .skill_bars_portuguese li strong
+    {
+    
+        position: relative;
+        left: -30%;        
+        top: -3.6rem;
+        color: #313131;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 1rem;
+        line-height: 2.4rem;
+    
+    }
+
+    .skill_bars_portuguese li .progress
+    {
+    
+        background: #313131;
+        position: relative;
+        height: 100%;
+    
+    }
+
+    .skill_bars_portuguese li .progress span 
+    {
+
+        position: absolute;
+        right: 0;
+        top: -2.6rem;
+        display: block;
+        color: white;
+        font-size: 0.8rem;
+        line-height: 0.5;
+        background: #313131;
+        padding: .6rem .6rem;
+        border-radius: 3px;
+
+    }
+
+    .skill_bars_portuguese li .progress span::after 
+    {
+    
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        margin-left: -5px;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        border-top: 5px solid #313131;
+        content: "";
+    
+    }
+
+    /*Skills List*/
+
+    .skills_mobile 
+    {
+
+        display: flex;
+        margin-left: 30%;
+        width: 90%;        
+
+    }
+
+    #slider_skills 
+    {
+
+        margin-top: 100%;
+        margin-left: -55%;
+
+    }
+
+    /*.portuguese
+    {
+
+        margin-top: -10%;
+
+    }*/
+    
     
 
 }
@@ -323,7 +484,7 @@
     {
 
         width: 100%;
-        height: 175vh;
+        height: 155vh;
         
 
     }    
@@ -444,6 +605,212 @@
         padding: 0.9%;
 
     }
+
+    /*page about*/
+
+    article#about
+    {
+
+        height: 730vh;
+
+    }
+
+    article#sumary 
+    {
+
+        height: 200vh;
+
+    }
+
+    div#about_titles
+    {
+
+        margin-top: 12%;
+
+    }    
+
+    #profile_picture 
+    {
+
+        width: 40%;
+
+    }
+
+    #profile_description 
+    {
+
+        width: 70%;
+
+    }
+
+    .profile_description 
+    {
+
+        font-size: 1.2rem;
+
+    }
+
+    div.templates 
+    {
+
+        display: none;              
+
+    }
+    
+    .profile_mobile 
+    {
+
+        display: flex;
+        margin-top: 500%;
+        width: 100%;
+        margin-left: 37%;
+        
+
+    }    
+
+    .perfil
+    {
+
+        margin-left: -43%;
+        margin-top: 15%;       
+
+    }
+
+    .personal_informations 
+    {
+
+       position: absolute; 
+       margin-top: 70%;
+       margin-left: -15%;
+       
+
+    }
+
+    h2.personal_titles 
+    {
+
+        font-size: 1rem;
+
+    }
+
+    p.personal_titles 
+    {
+
+        font-size: 0.9rem;
+
+    }
+
+    /*Languages list*/
+
+    #owl-slider-languages
+    {
+
+        margin-top: 210%;
+        margin-left: -50%;
+
+    }
+
+    .skill_bars_portuguese 
+    {
+    
+        list-style: none;
+        margin: 6rem 0 3rem;
+        display: block;   
+    
+    }
+
+    .skill_bars_portuguese li 
+    {
+
+        height: 0.5rem;
+        background: #a1a1a1;
+        width: 130%;
+        margin-bottom: 6rem;
+        padding: 0;
+        position: relative;
+
+    }
+
+    .skill_bars_portuguese li strong
+    {
+    
+        position: relative;
+        left: -30%;        
+        top: -3.6rem;
+        color: #313131;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 1rem;
+        line-height: 2.4rem;
+    
+    }
+
+    .skill_bars_portuguese li .progress
+    {
+    
+        background: #313131;
+        position: relative;
+        height: 100%;
+    
+    }
+
+    .skill_bars_portuguese li .progress span 
+    {
+
+        position: absolute;
+        right: 0;
+        top: -2.6rem;
+        display: block;
+        color: white;
+        font-size: 0.8rem;
+        line-height: 0.5;
+        background: #313131;
+        padding: .6rem .6rem;
+        border-radius: 3px;
+
+    }
+
+    .skill_bars_portuguese li .progress span::after 
+    {
+    
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        margin-left: -5px;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        border-top: 5px solid #313131;
+        content: "";
+    
+    }
+
+    /*Skills List*/
+
+    .skills_mobile 
+    {
+
+        display: flex;
+        margin-left: 30%;
+        width: 90%;        
+
+    }
+
+    #slider_skills 
+    {
+
+        margin-top: 70%;
+        margin-left: -45%;
+
+    }
+
+    /*.portuguese
+    {
+
+        margin-top: -10%;
+
+    }*/
+    
+
 
 }
 
@@ -579,6 +946,337 @@
 
     }
 
+    header
+    {
+
+        width: 100%;
+        height: 155vh;
+        
+
+    }    
+    
+    
+    img.main_menu_button
+    {
+
+        height: 18px;
+        
+
+    }
+
+    div.dropdown:hover .dropdown-child
+    {
+
+        display: flex;
+
+    }
+
+    span#name 
+    {
+
+        font-size: 26px;
+
+    }
+
+    a.navigator 
+    {
+
+        font-size: 0.7rem;
+
+    }
+
+    h2.header
+    {
+
+        font-size: 1.82rem;
+        padding-top: 8vh;
+
+    }
+
+    h1.header
+    {
+
+        font-size: 2.62rem;
+        padding-top: 1.6vh;
+
+    }
+
+    p.header
+    {
+
+        font-size: 0.9rem;
+        margin-top: 1.4vh;
+        
+
+    }
+
+    span.line
+    {
+
+        display: none;
+
+    }
+
+    div.box
+    {
+
+        margin-top: 14%;
+        margin-left: 28.2%;
+        
+
+    }
+
+    button 
+    {
+
+        height: 60px;
+        width: 850%;
+        font-size: 0.9rem; 
+       
+    }
+
+    div#icons
+    {
+
+        width: 50%;
+        margin-left: 32%;
+        
+
+    }
+
+    img.twitter 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.linkedin
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.github 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.mail 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    /*page about*/
+
+    article#about
+    {
+
+        height: 730vh;
+
+    }
+
+    article#sumary 
+    {
+
+        height: 200vh;
+
+    }
+
+    div#about_titles
+    {
+
+        margin-top: 12%;
+
+    }    
+
+    #profile_picture 
+    {
+
+        width: 40%;
+
+    }
+
+    #profile_description 
+    {
+
+        width: 70%;
+
+    }
+
+    .profile_description 
+    {
+
+        font-size: 1.2rem;
+
+    }
+
+    div.templates 
+    {
+
+        display: none;              
+
+    }
+    
+    .profile_mobile 
+    {
+
+        display: flex;
+        margin-top: 400%;
+        width: 100%;
+        margin-left: 37%;
+        
+
+    }    
+
+    .perfil
+    {
+
+        margin-left: -43%;
+        margin-top: 15%;       
+
+    }
+
+    .personal_informations 
+    {
+
+       position: absolute; 
+       margin-top: 70%;
+       margin-left: -15%;
+       
+
+    }
+
+    h2.personal_titles 
+    {
+
+        font-size: 1rem;
+
+    }
+
+    p.personal_titles 
+    {
+
+        font-size: 0.9rem;
+
+    }
+
+    /*Languages list*/
+
+    #owl-slider-languages
+    {
+
+        margin-top: 210%;
+        margin-left: -50%;
+
+    }
+
+    .skill_bars_portuguese 
+    {
+    
+        list-style: none;
+        margin: 6rem 0 3rem;
+        display: block;   
+    
+    }
+
+    .skill_bars_portuguese li 
+    {
+
+        height: 0.5rem;
+        background: #a1a1a1;
+        width: 130%;
+        margin-bottom: 6rem;
+        padding: 0;
+        position: relative;
+
+    }
+
+    .skill_bars_portuguese li strong
+    {
+    
+        position: relative;
+        left: -30%;        
+        top: -3.6rem;
+        color: #313131;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 1rem;
+        line-height: 2.4rem;
+    
+    }
+
+    .skill_bars_portuguese li .progress
+    {
+    
+        background: #313131;
+        position: relative;
+        height: 100%;
+    
+    }
+
+    .skill_bars_portuguese li .progress span 
+    {
+
+        position: absolute;
+        right: 0;
+        top: -2.6rem;
+        display: block;
+        color: white;
+        font-size: 0.8rem;
+        line-height: 0.5;
+        background: #313131;
+        padding: .6rem .6rem;
+        border-radius: 3px;
+
+    }
+
+    .skill_bars_portuguese li .progress span::after 
+    {
+    
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        margin-left: -5px;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        border-top: 5px solid #313131;
+        content: "";
+    
+    }
+
+    /*Skills List*/
+
+    .skills_mobile 
+    {
+
+        display: flex;
+        margin-left: 30%;
+        width: 90%;        
+
+    }
+
+    #slider_skills 
+    {
+
+        margin-top: 70%;
+        margin-left: -45%;
+
+    }
+
+    /*.portuguese
+    {
+
+        margin-top: -10%;
+
+    }*/
+    
+
 }
 
 /*Large Mobile*/
@@ -711,6 +1409,337 @@
         margin-left: 2%;
 
     }
+
+    header
+    {
+
+        width: 100%;
+        height: 155vh;
+        
+
+    }    
+    
+    
+    img.main_menu_button
+    {
+
+        height: 18px;
+        
+
+    }
+
+    div.dropdown:hover .dropdown-child
+    {
+
+        display: flex;
+
+    }
+
+    span#name 
+    {
+
+        font-size: 26px;
+
+    }
+
+    a.navigator 
+    {
+
+        font-size: 0.7rem;
+
+    }
+
+    h2.header
+    {
+
+        font-size: 1.82rem;
+        padding-top: 8vh;
+
+    }
+
+    h1.header
+    {
+
+        font-size: 2.62rem;
+        padding-top: 1.6vh;
+
+    }
+
+    p.header
+    {
+
+        font-size: 0.9rem;
+        margin-top: 1.4vh;
+        
+
+    }
+
+    span.line
+    {
+
+        display: none;
+
+    }
+
+    div.box
+    {
+
+        margin-top: 14%;
+        margin-left: 28.2%;
+        
+
+    }
+
+    button 
+    {
+
+        height: 60px;
+        width: 850%;
+        font-size: 0.9rem; 
+       
+    }
+
+    div#icons
+    {
+
+        width: 50%;
+        margin-left: 32%;
+        
+
+    }
+
+    img.twitter 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.linkedin
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.github 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    img.mail 
+    {
+
+        padding: 0.9%;
+
+    }
+
+    /*page about*/
+
+    article#about
+    {
+
+        height: 730vh;
+
+    }
+
+    article#sumary 
+    {
+
+        height: 200vh;
+
+    }
+
+    div#about_titles
+    {
+
+        margin-top: 12%;
+
+    }    
+
+    #profile_picture 
+    {
+
+        width: 40%;
+
+    }
+
+    #profile_description 
+    {
+
+        width: 70%;
+
+    }
+
+    .profile_description 
+    {
+
+        font-size: 1.2rem;
+
+    }
+
+    div.templates 
+    {
+
+        display: none;              
+
+    }
+    
+    .profile_mobile 
+    {
+
+        display: flex;
+        margin-top: 400%;
+        width: 100%;
+        margin-left: 37%;
+        
+
+    }    
+
+    .perfil
+    {
+
+        margin-left: -43%;
+        margin-top: 15%;       
+
+    }
+
+    .personal_informations 
+    {
+
+       position: absolute; 
+       margin-top: 70%;
+       margin-left: -15%;
+       
+
+    }
+
+    h2.personal_titles 
+    {
+
+        font-size: 1rem;
+
+    }
+
+    p.personal_titles 
+    {
+
+        font-size: 0.9rem;
+
+    }
+
+    /*Languages list*/
+
+    #owl-slider-languages
+    {
+
+        margin-top: 210%;
+        margin-left: -50%;
+
+    }
+
+    .skill_bars_portuguese 
+    {
+    
+        list-style: none;
+        margin: 6rem 0 3rem;
+        display: block;   
+    
+    }
+
+    .skill_bars_portuguese li 
+    {
+
+        height: 0.5rem;
+        background: #a1a1a1;
+        width: 130%;
+        margin-bottom: 6rem;
+        padding: 0;
+        position: relative;
+
+    }
+
+    .skill_bars_portuguese li strong
+    {
+    
+        position: relative;
+        left: -30%;        
+        top: -3.6rem;
+        color: #313131;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 1rem;
+        line-height: 2.4rem;
+    
+    }
+
+    .skill_bars_portuguese li .progress
+    {
+    
+        background: #313131;
+        position: relative;
+        height: 100%;
+    
+    }
+
+    .skill_bars_portuguese li .progress span 
+    {
+
+        position: absolute;
+        right: 0;
+        top: -2.6rem;
+        display: block;
+        color: white;
+        font-size: 0.8rem;
+        line-height: 0.5;
+        background: #313131;
+        padding: .6rem .6rem;
+        border-radius: 3px;
+
+    }
+
+    .skill_bars_portuguese li .progress span::after 
+    {
+    
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        margin-left: -5px;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        border-top: 5px solid #313131;
+        content: "";
+    
+    }
+
+    /*Skills List*/
+
+    .skills_mobile 
+    {
+
+        display: flex;
+        margin-left: 30%;
+        width: 90%;        
+
+    }
+
+    #slider_skills 
+    {
+
+        margin-top: 70%;
+        margin-left: -45%;
+
+    }
+
+    /*.portuguese
+    {
+
+        margin-top: -10%;
+
+    }*/
+    
 
 
 }
