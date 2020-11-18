@@ -272,9 +272,10 @@
     article#about
     {
 
-        height: 750vh;
+        height: 1350vh;
 
     }
+    
 
     article#sumary 
     {
@@ -307,7 +308,7 @@
     .profile_description 
     {
 
-        font-size: 1.2rem;
+        font-size: 1rem;
 
     }
 
@@ -316,13 +317,13 @@
 
         display: none;              
 
-    }
+    }    
     
     .profile_mobile 
     {
 
         display: flex;
-        margin-top: 700%;
+        margin-top: 440%;
         width: 100%;
         margin-left: 37%;
         
@@ -401,7 +402,7 @@
         color: #313131;
         text-transform: uppercase;
         letter-spacing: 0.2rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 2.4rem;
     
     }
@@ -611,7 +612,7 @@
     article#about
     {
 
-        height: 750vh;
+        height: 1550vh;
 
     }
 
@@ -647,6 +648,7 @@
     {
 
         font-size: 1.2rem;
+        margin-top: 25%;
 
     }
 
@@ -661,7 +663,7 @@
     {
 
         display: flex;
-        margin-top: 500%;
+        margin-top: 510%;
         width: 100%;
         margin-left: 37%;
         
@@ -1077,7 +1079,7 @@
     article#about
     {
 
-        height: 750vh;
+        height: 1550vh;
 
     }
 
@@ -1098,7 +1100,7 @@
     #profile_picture 
     {
 
-        width: 40%;
+        width: 38%;
 
     }
 
@@ -1113,6 +1115,7 @@
     {
 
         font-size: 1.2rem;
+        margin-top: 25%;
 
     }
 
@@ -1127,7 +1130,7 @@
     {
 
         display: flex;
-        margin-top: 400%;
+        margin-top: 410%;
         width: 100%;
         margin-left: 37%;
         
@@ -1146,7 +1149,7 @@
     {
 
        position: absolute; 
-       margin-top: 70%;
+       margin-top: 60%;
        margin-left: -15%;
        
 
@@ -1171,7 +1174,7 @@
     #owl-slider-languages
     {
 
-        margin-top: 200%;
+        margin-top: 170%;
         margin-left: -50%;
 
     }
@@ -1264,7 +1267,7 @@
     #slider_skills 
     {
 
-        margin-top: 70%;
+        margin-top: 50%;
         margin-left: -45%;
 
     }
@@ -1536,209 +1539,210 @@
 
     }
 
-    /*page about*/
+   /*page about*/
 
-    article#about
-    {
+   article#about
+   {
 
-        height: 780vh;
+       height: 1550vh;
 
-    }
+   }
 
-    article#sumary 
-    {
+   article#sumary 
+   {
 
-        height: 200vh;
+       height: 200vh;
 
-    }
+   }
 
-    div#about_titles
-    {
+   div#about_titles
+   {
 
-        margin-top: 12%;
+       margin-top: 12%;
 
-    }    
+   }    
 
-    #profile_picture 
-    {
+   #profile_picture 
+   {
 
-        width: 40%;
+       width: 38%;
 
-    }
+   }
 
-    #profile_description 
-    {
+   #profile_description 
+   {
 
-        width: 70%;
+       width: 70%;
 
-    }
+   }
 
-    .profile_description 
-    {
+   .profile_description 
+   {
 
-        font-size: 1.2rem;
+       font-size: 1.2rem;
+       margin-top: 25%;
 
-    }
+   }
 
-    div.templates 
-    {
+   div.templates 
+   {
 
-        display: none;              
+       display: none;              
 
-    }
-    
-    .profile_mobile 
-    {
+   }
+   
+   .profile_mobile 
+   {
 
-        display: flex;
-        margin-top: 400%;
-        width: 100%;
-        margin-left: 37%;
-        
-
-    }    
-
-    .perfil
-    {
-
-        margin-left: -43%;
-        margin-top: 15%;       
-
-    }
-
-    .personal_informations 
-    {
-
-       position: absolute; 
-       margin-top: 70%;
-       margin-left: -15%;
+       display: flex;
+       margin-top: 410%;
+       width: 100%;
+       margin-left: 37%;
        
 
-    }
+   }    
 
-    h2.personal_titles 
-    {
+   .perfil
+   {
 
-        font-size: 1rem;
+       margin-left: -43%;
+       margin-top: 15%;       
 
-    }
+   }
 
-    p.personal_titles 
-    {
+   .personal_informations 
+   {
 
-        font-size: 0.9rem;
+      position: absolute; 
+      margin-top: 60%;
+      margin-left: -15%;
+      
 
-    }
+   }
 
-    /*Languages list*/
+   h2.personal_titles 
+   {
 
-    #owl-slider-languages
-    {
+       font-size: 1rem;
 
-        margin-top: 200%;
-        margin-left: -50%;
+   }
 
-    }
+   p.personal_titles 
+   {
 
-    .skill_bars_portuguese 
-    {
-    
-        list-style: none;
-        margin: 6rem 0 3rem;
-        display: block;   
-    
-    }
+       font-size: 0.9rem;
 
-    .skill_bars_portuguese li 
-    {
+   }
 
-        height: 0.5rem;
-        background: #a1a1a1;
-        width: 130%;
-        margin-bottom: 6rem;
-        padding: 0;
-        position: relative;
+   /*Languages list*/
 
-    }
+   #owl-slider-languages
+   {
 
-    .skill_bars_portuguese li strong
-    {
-    
-        position: relative;
-        left: -30%;        
-        top: -3.6rem;
-        color: #313131;
-        text-transform: uppercase;
-        letter-spacing: 0.2rem;
-        font-size: 1rem;
-        line-height: 2.4rem;
-    
-    }
+       margin-top: 170%;
+       margin-left: -50%;
 
-    .skill_bars_portuguese li .progress
-    {
-    
-        background: #313131;
-        position: relative;
-        height: 100%;
-    
-    }
+   }
 
-    .skill_bars_portuguese li .progress span 
-    {
+   .skill_bars_portuguese 
+   {
+   
+       list-style: none;
+       margin: 6rem 0 3rem;
+       display: block;   
+   
+   }
 
-        position: absolute;
-        right: 0;
-        top: -2.6rem;
-        display: block;
-        color: white;
-        font-size: 0.8rem;
-        line-height: 0.5;
-        background: #313131;
-        padding: .6rem .6rem;
-        border-radius: 3px;
+   .skill_bars_portuguese li 
+   {
 
-    }
+       height: 0.5rem;
+       background: #a1a1a1;
+       width: 130%;
+       margin-bottom: 6rem;
+       padding: 0;
+       position: relative;
 
-    .skill_bars_portuguese li .progress span::after 
-    {
-    
-        position: absolute;
-        left: 50%;
-        bottom: -5px;
-        margin-left: -5px;
-        border-right: 5px solid transparent;
-        border-left: 5px solid transparent;
-        border-top: 5px solid #313131;
-        content: "";
-    
-    }
+   }
 
-    /*Skills List*/
+   .skill_bars_portuguese li strong
+   {
+   
+       position: relative;
+       left: -30%;        
+       top: -3.6rem;
+       color: #313131;
+       text-transform: uppercase;
+       letter-spacing: 0.2rem;
+       font-size: 1rem;
+       line-height: 2.4rem;
+   
+   }
 
-    .skills_mobile 
-    {
+   .skill_bars_portuguese li .progress
+   {
+   
+       background: #313131;
+       position: relative;
+       height: 100%;
+   
+   }
 
-        display: flex;
-        margin-left: 30%;
-        width: 90%;        
+   .skill_bars_portuguese li .progress span 
+   {
 
-    }
+       position: absolute;
+       right: 0;
+       top: -2.6rem;
+       display: block;
+       color: white;
+       font-size: 0.8rem;
+       line-height: 0.5;
+       background: #313131;
+       padding: .6rem .6rem;
+       border-radius: 3px;
 
-    #slider_skills 
-    {
+   }
 
-        margin-top: 70%;
-        margin-left: -45%;
+   .skill_bars_portuguese li .progress span::after 
+   {
+   
+       position: absolute;
+       left: 50%;
+       bottom: -5px;
+       margin-left: -5px;
+       border-right: 5px solid transparent;
+       border-left: 5px solid transparent;
+       border-top: 5px solid #313131;
+       content: "";
+   
+   }
 
-    }
+   /*Skills List*/
 
-    /*.portuguese
-    {
+   .skills_mobile 
+   {
 
-        margin-top: -10%;
+       display: flex;
+       margin-left: 30%;
+       width: 90%;        
 
-    }*/
+   }
+
+   #slider_skills 
+   {
+
+       margin-top: 50%;
+       margin-left: -45%;
+
+   }
+
+   /*.portuguese
+   {
+
+       margin-top: -10%;
+
+   }*/
     
 
 
@@ -1873,7 +1877,7 @@
     article#about
     {
 
-        height: 780vh;
+        height: 1350vh;
 
     }
 
