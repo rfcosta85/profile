@@ -490,10 +490,105 @@
 
     }
 
+
+
     div.year
     {
 
         display: inline;
+       
+
+    }
+
+    h2.credentials
+    {
+
+        font-size: 1rem;
+
+    }
+
+    h1.credentials 
+    {
+
+        font-size: 1.4rem;
+
+    }
+
+    p.scholarship 
+    {
+
+        font-size: 1.2rem;
+
+    }
+
+    .xp 
+    {
+
+        font-size: 1.4rem;
+
+    }
+    
+
+    h2.year, h2.company
+    {
+
+        font-size: 1.3rem;
+        margin-top: 8%; 
+           
+
+    }
+
+    p.year, p.company
+    {
+
+        font-size: 0.9rem;
+        display: inline;
+        margin-left: 0.5%;       
+
+    }
+
+    hr 
+    {
+
+        margin-bottom: 5%;
+
+    }
+
+    p.company 
+    {
+
+        margin-bottom: 2%;
+        
+
+    }
+    
+
+    #office
+    {
+
+        display: none;
+
+    }
+
+    #inno
+    {
+
+        margin-left: 0.1%;
+        
+
+    }
+
+    p#xd
+    {
+
+        margin-left: 0.1%;        
+
+    }
+
+    #h2_id
+    {
+
+        margin-top: -2.5%;
 
     }
 
@@ -844,7 +939,116 @@
 
     }
 
+     /*Page Sumary*/
 
+     article#sumary
+     {
+ 
+         height: 1000vh;
+ 
+     }
+ 
+ 
+ 
+     div.year
+     {
+ 
+         display: inline;
+        
+ 
+     }
+ 
+     h2.credentials
+     {
+ 
+         font-size: 1rem;
+ 
+     }
+ 
+     h1.credentials 
+     {
+ 
+         font-size: 1.4rem;
+ 
+     }
+ 
+     p.scholarship 
+     {
+ 
+         font-size: 1.2rem;
+ 
+     }
+ 
+     .xp 
+     {
+ 
+         font-size: 1.4rem;
+ 
+     }
+     
+ 
+     h2.year, h2.company
+     {
+ 
+         font-size: 1.3rem;
+         margin-top: 8%; 
+            
+ 
+     }
+ 
+     p.year, p.company
+     {
+ 
+         font-size: 0.9rem;
+         display: inline;
+         margin-left: 0.5%;       
+ 
+     }
+ 
+     hr 
+     {
+ 
+         margin-bottom: 5%;
+ 
+     }
+ 
+     p.company 
+     {
+ 
+         margin-bottom: 2%;
+         
+ 
+     }
+     
+ 
+     #office
+     {
+ 
+         display: none;
+ 
+     }
+ 
+     #inno
+     {
+ 
+         margin-left: 0.1%;
+         
+ 
+     }
+ 
+     p#xd
+     {
+ 
+         margin-left: 0.1%;        
+ 
+     }
+ 
+     #h2_id
+     {
+ 
+         margin-top: -2.5%;
+ 
+     }
     
 
 
@@ -1321,6 +1525,117 @@
         margin-left: 25%;
 
     }
+
+     /*Page Sumary*/
+
+     article#sumary
+     {
+ 
+         height: 1000vh;
+ 
+     }
+ 
+ 
+ 
+     div.year
+     {
+ 
+         display: inline;
+        
+ 
+     }
+ 
+     h2.credentials
+     {
+ 
+         font-size: 1rem;
+ 
+     }
+ 
+     h1.credentials 
+     {
+ 
+         font-size: 1.4rem;
+ 
+     }
+ 
+     p.scholarship 
+     {
+ 
+         font-size: 1.2rem;
+ 
+     }
+ 
+     .xp 
+     {
+ 
+         font-size: 1.4rem;
+ 
+     }
+     
+ 
+     h2.year, h2.company
+     {
+ 
+         font-size: 1.3rem;
+         margin-top: 8%; 
+            
+ 
+     }
+ 
+     p.year, p.company
+     {
+ 
+         font-size: 0.9rem;
+         display: inline;
+         margin-left: 0.5%;       
+ 
+     }
+ 
+     hr 
+     {
+ 
+         margin-bottom: 5%;
+ 
+     }
+ 
+     p.company 
+     {
+ 
+         margin-bottom: 2%;
+         
+ 
+     }
+     
+ 
+     #office
+     {
+ 
+         display: none;
+ 
+     }
+ 
+     #inno
+     {
+ 
+         margin-left: 0.1%;
+         
+ 
+     }
+ 
+     p#xd
+     {
+ 
+         margin-left: 0.1%;        
+ 
+     }
+ 
+     #h2_id
+     {
+ 
+         margin-top: -2.5%;
+ 
+     }
     
 
 }
@@ -1796,7 +2111,116 @@
 
    }
     
+    /*Page Sumary*/
 
+    article#sumary
+    {
+
+        height: 1300vh;
+
+    }
+
+
+
+    div.year
+    {
+
+        display: inline;
+       
+
+    }
+
+    h2.credentials
+    {
+
+        font-size: 1rem;
+
+    }
+
+    h1.credentials 
+    {
+
+        font-size: 1.4rem;
+
+    }
+
+    p.scholarship 
+    {
+
+        font-size: 1.2rem;
+
+    }
+
+    .xp 
+    {
+
+        font-size: 1.4rem;
+
+    }
+    
+
+    h2.year, h2.company
+    {
+
+        font-size: 1.3rem;
+        margin-top: 8%; 
+           
+
+    }
+
+    p.year, p.company
+    {
+
+        font-size: 0.9rem;
+        display: inline;
+        margin-left: 0.5%;       
+
+    }
+
+    hr 
+    {
+
+        margin-bottom: 5%;
+
+    }
+
+    p.company 
+    {
+
+        margin-bottom: 2%;
+        
+
+    }
+    
+
+    #office
+    {
+
+        display: none;
+
+    }
+
+    #inno
+    {
+
+        margin-left: 0.1%;
+        
+
+    }
+
+    p#xd
+    {
+
+        margin-left: 0.1%;        
+
+    }
+
+    #h2_id
+    {
+
+        margin-top: -2.5%;
+
+    }
 
 }
 
@@ -2150,5 +2574,52 @@
         margin-left: 30%;
 
     }
+
+    /*Tablet Version*/
+
+    article#sumary 
+    {
+
+        height: 800vh;
+
+    }
+
+    p.year
+    {
+
+        margin-top: 8%;
+        margin-left: -18%;        
+
+    }
+
+    #h2_inno
+    {
+
+        margin-left: -10%;
+
+    }
+
+    #h2_xd
+    {
+
+        margin-left: -10%;
+
+    }
+
+    p#xd 
+    {
+
+        margin-left: -20%;
+
+    }
+
+    p#inno 
+    {
+
+        margin-left: -30%;
+
+    }
+
+
 
 }
