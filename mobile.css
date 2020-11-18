@@ -481,7 +481,21 @@
 
     }
     
-    
+    /*Page Sumary*/
+
+    article#sumary
+    {
+
+        height: 1300vh;
+
+    }
+
+    div.year
+    {
+
+        display: inline;
+
+    }
 
 }
 

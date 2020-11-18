@@ -304,14 +304,6 @@ article#about
 
 }
 
-article#sumary
-{
-
-    height: 100vh;
-    background-color: rgba(211, 211, 211, 0.404);
-
-}
-
 div#about_titles 
 {
 
@@ -678,3 +670,122 @@ a#talk:hover
 
 }
 
+/*Sumary Desktop Configuration*/
+
+article#sumary
+{
+
+    height: 300vh;
+    background-color: rgba(211, 211, 211, 0.404);
+
+}
+
+.experiences
+{
+
+    margin-top: 8%;
+    list-style: none;
+    color: #313131;
+    margin-left: 5%;
+
+}
+
+#office
+{
+    
+    height: 20px;
+    margin-left: -3.5%;
+    margin-top: 2%; 
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.884); 
+    width: 25px;
+    border-radius: 50%; 
+
+}
+
+hr 
+{
+
+    background-color: var(--text_colors_pages);
+    width: 0.082rem;
+    margin-left: 8%;    
+
+}
+
+div.year
+{
+
+    margin-top: 10%;
+    width: 82%; 
+    display: flex;   
+
+}
+
+span.company
+{
+
+    width: 100%;
+    margin-left: 5%;    
+
+}
+
+h2.year
+{
+
+    font-size: 1.6rem;    
+
+}
+
+p.year 
+{
+
+    font-size: 1rem;
+    margin-top: 5%;
+    margin-left: -12%;
+    width: 50%;
+    color: var(--text_colors_pages);
+
+}
+
+h2.company 
+{
+
+    font-size: 1.4rem;
+
+}
+
+p.company
+{
+
+    font-size: 1.2rem;
+    color: var(--text_colors_pages);
+    margin-top: 2%;
+
+}
+
+hr.horizontal
+{
+
+    width: 20%;
+    height: 1.1%;
+    margin-top: 2%;
+    margin-left: 1%;
+
+}
+
+#inno
+{
+
+    margin-left: -25%;
+
+}
+
+hr.horizontal_inno
+{
+
+    width: 20%;
+    height: 0.5%;
+    margin-top: 2%;
+    margin-left: 1%;
+
+}
