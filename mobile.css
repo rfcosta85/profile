@@ -473,6 +473,13 @@
         margin-left: 25%;
 
     }
+
+    .talk_mobile
+    {
+
+        display: inline;
+
+    }
     
     
 
@@ -807,6 +814,13 @@
 
     }
 
+    .talk_mobile
+    {
+
+        display: inline;
+
+    }
+
     .button_contact
     {
 
@@ -815,6 +829,8 @@
         margin-left: 25%;
 
     }
+
+
     
 
 
@@ -1273,6 +1289,13 @@
 
         margin-top: 50%;
         margin-left: -45%;
+
+    }
+
+    .talk_mobile
+    {
+
+        display: inline;
 
     }
 
@@ -1743,6 +1766,13 @@
 
    }
 
+   .talk_mobile
+   {
+
+       display: inline;
+
+   }
+
    .button_contact
    {
 
@@ -2088,6 +2118,13 @@
 
         margin-top: 35%;
         margin-left: -50%;
+
+    }
+
+    .talk_mobile
+    {
+
+        display: inline;
 
     }
 
