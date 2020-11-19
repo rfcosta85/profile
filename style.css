@@ -675,7 +675,7 @@ a#talk:hover
 article#sumary
 {
 
-    height: 400vh;
+    height: 600vh;
     background-color: rgba(211, 211, 211, 0.404);
 
 }
@@ -804,5 +804,138 @@ hr.horizontal_xd
     height: 0.5%;
     margin-top: 2%;
     margin-left: 1%;
+
+}
+
+.degree 
+{
+
+    text-align: center;
+    color: var(--pink_colors_for_dark_backgrounds);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.041);  
+    font-size: 1.8rem;
+    text-justify: auto;
+    margin-top: 10vh;
+
+}
+
+.formation
+{
+
+    margin-top: 8%;
+    list-style: none;
+    color: #313131;
+    margin-left: 5%;
+
+}
+
+hr.bacharelado 
+{
+
+    background-color: var(--text_colors_pages);
+    width: 0.15rem;
+    margin-left: 6%;
+
+}
+
+span.university
+{
+
+    width: 100%;
+    margin-left: 5%; 
+
+}
+
+#uff
+{
+
+    margin-left: -7.5%;
+
+}
+
+#h2_university
+{
+
+    font-size: 1.4rem;
+    color: #313131;
+    margin-top: -3.8%;
+
+}
+
+.university 
+{
+
+    font-size: 1.2rem;
+    color: var(--text_colors_pages);
+    margin-top: 2%;
+
+}
+
+#cap
+{
+
+    height: 20px;
+    margin-left: -3.5%;
+    margin-top: 2%; 
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.884); 
+    width: 25px;
+    border-radius: 50%;
+
+}
+
+#estacio
+{
+
+    margin-left: -12.5%;
+
+}
+
+.courses
+{
+
+    margin-top: 8%;
+    list-style: none;
+    color: #313131;
+    margin-left: 5%;
+
+}
+
+hr.course 
+{
+
+    background-color: var(--text_colors_pages);
+    width: 0.15rem;
+    margin-left: 4%;
+
+}
+
+#course01
+{
+
+    margin-left: -7.5%;
+
+}
+
+#courses01 
+{
+
+    font-size: 1.4rem;
+    color: #313131;
+    margin-top: -3.8%;
+
+}
+
+#course03
+{
+
+    margin-left: -9%;
+
+}
+
+.course03 
+{
+
+    margin-left: 3%;
 
 }
