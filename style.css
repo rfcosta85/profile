@@ -675,7 +675,7 @@ a#talk:hover
 article#sumary
 {
 
-    height: 600vh;
+    height: 650vh;
     background-color: rgba(211, 211, 211, 0.404);
 
 }
@@ -937,5 +937,12 @@ hr.course
 {
 
     margin-left: 3%;
+
+}
+
+#course04
+{
+
+    margin-left: -7.5%;
 
 }

@@ -486,7 +486,7 @@
     article#sumary
     {
 
-        height: 1300vh;
+        height: 1850vh;
 
     }
 
@@ -564,6 +564,13 @@
     
 
     #office
+    {
+
+        display: none;
+
+    }
+
+    #cap
     {
 
         display: none;
@@ -944,7 +951,7 @@
      article#sumary
      {
  
-         height: 1000vh;
+         height: 1600vh;
  
      }
  
@@ -1027,6 +1034,13 @@
          display: none;
  
      }
+
+     #cap
+    {
+
+        display: none;
+
+    }
  
      #inno
      {
@@ -1531,7 +1545,7 @@
      article#sumary
      {
  
-         height: 1000vh;
+         height: 1500vh;
  
      }
  
@@ -1614,6 +1628,13 @@
          display: none;
  
      }
+
+     #cap
+    {
+
+        display: none;
+
+    }
  
      #inno
      {
@@ -2580,7 +2601,7 @@
     article#sumary 
     {
 
-        height: 800vh;
+        height: 1650vh;
 
     }
 
