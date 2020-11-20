@@ -606,6 +606,105 @@
 
     }
 
+    .services
+    {
+
+        font-size: 1.2rem;
+
+    }
+
+    /*Portfolio Mobile*/
+
+    .portfolio_informations
+    {
+
+        width: 80%;
+
+    }
+
+    .services
+    {
+
+        font-size: 1.15rem;
+
+    }
+
+    .services_titles 
+    {
+
+        font-size: 1.2rem;        
+
+    }
+
+    .services_text
+    {
+
+        font-size: 1rem;
+
+    }
+
+
+    .html 
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;   
+        margin-left: 20%; 
+        margin-top: 20%;   
+
+    }
+
+    .css 
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;
+        margin-left: 13%;
+
+    }
+
+    .js
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;
+        margin-left: 13%;
+
+    }
+    
+
+    .title_solution 
+    {
+
+        
+        display: none;
+
+    }
+
+    #html_title_solution 
+    {
+
+        margin-left: 1%;
+
+    }
+
+    #css_title_solution
+    {
+
+        margin-left: 3%;
+
+    }
+
+    #js_title_solution
+    {
+
+        margin-left: 2%;
+
+    }
+
 }
 
 /* medium mobile*/
@@ -1078,7 +1177,98 @@
  
      }
     
+     /*Portfólio mobile*/
 
+     .portfolio_informations
+    {
+
+        width: 80%;
+
+    }
+
+    .services
+    {
+
+        font-size: 1.15rem;
+
+    }
+
+    .services_titles 
+    {
+
+        font-size: 1.2rem;        
+
+    }
+
+    .services_text
+    {
+
+        font-size: 1rem;
+
+    }
+
+
+    .html 
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;   
+        margin-left: 20%; 
+        margin-top: 20%;   
+
+    }
+
+    .css 
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;
+        margin-left: 13%;
+
+    }
+
+    .js
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;
+        margin-left: 13%;
+
+    }
+    
+
+    .title_solution 
+    {
+
+        
+        /*display: none;*/
+        font-size: 0.8rem;
+
+    }
+
+    #html_title_solution 
+    {
+
+        margin-left: 1%;
+
+    }
+
+    #css_title_solution
+    {
+
+        margin-left: 3%;
+
+    }
+
+    #js_title_solution
+    {
+
+        margin-left: 2%;
+
+    }
 
 }
 
@@ -1679,6 +1869,98 @@
  
      }
     
+     /*Portfólio Mobile*/
+
+     .portfolio_informations
+    {
+
+        width: 80%;
+
+    }
+
+    .services
+    {
+
+        font-size: 1.15rem;
+
+    }
+
+    .services_titles 
+    {
+
+        font-size: 1.2rem;        
+
+    }
+
+    .services_text
+    {
+
+        font-size: 1rem;
+
+    }
+
+
+    .html 
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;   
+        margin-left: 20%; 
+        margin-top: 20%;   
+
+    }
+
+    .css 
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;
+        margin-left: 13%;
+
+    }
+
+    .js
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;
+        margin-left: 13%;
+
+    }
+    
+
+    .title_solution 
+    {
+
+        
+        /*display: none;*/
+        font-size: 0.92rem;
+
+    }
+
+    #html_title_solution 
+    {
+
+        margin-left: 1%;
+
+    }
+
+    #css_title_solution
+    {
+
+        margin-left: 3%;
+
+    }
+
+    #js_title_solution
+    {
+
+        margin-left: 2%;
+
+    }
 
 }
 
@@ -2271,6 +2553,113 @@
 
     }
 
+    #html_title_solution
+    {
+
+        margin-left: 12%;
+        
+    }
+
+    /*Portfólio Mobile*/
+
+    .portfolio_informations
+    {
+
+        width: 80%;
+
+    }
+
+    .services
+    {
+
+        font-size: 1.15rem;
+
+    }
+
+    .services_titles 
+    {
+
+        font-size: 1.2rem;        
+
+    }
+
+    .services_text
+    {
+
+        font-size: 1rem;
+
+    }
+
+
+    .html 
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;   
+        margin-left: 20%; 
+        margin-top: 20%;   
+
+    }
+
+    .css 
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;
+        margin-left: 13%;
+
+    }
+
+    .js
+    {
+
+        height: 30px;
+        width: 9%;
+        padding: 0.6%;
+        margin-left: 13%;
+
+    }
+    
+
+    .title_solution 
+    {
+
+        
+        /*display: none;*/
+        font-size: 0.92rem;
+
+    }
+
+    #html_title_solution 
+    {
+
+        margin-left: 1%;
+
+    }
+
+    #css_title_solution
+    {
+
+        margin-left: 3%;
+
+    }
+
+    #js_title_solution
+    {
+
+        margin-left: 2%;
+
+    }
+
+    #html_title_solution
+    {
+
+        margin-left: 12%;
+
+    }
+
 }
 
 /*tablet version*/
@@ -2669,6 +3058,25 @@
 
     }
 
+    .title_solution
+    {
 
+        font-size: 0.9rem;
+
+    }
+
+    #css_title_solution
+    {
+
+        margin-left: 12%;
+
+    }
+
+    #js_title_solution 
+    {
+
+        margin-left: 12%;
+
+    }
 
 }
