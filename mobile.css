@@ -705,6 +705,45 @@
 
     }
 
+    /*contacts_mobile*/
+
+    .subtitle
+    {
+
+        font-size: 1rem;
+
+    }
+
+    .contacts_title
+    {
+
+        font-size: 1.4rem
+
+    }
+
+    .informations_contacts_informations
+    {
+
+        font-size: 0.9rem;
+
+    }
+
+    #mail
+    {
+
+        width: 40%;
+        height: 40px;
+        font-size: 0.6rem;
+
+    }
+
+    p.footer
+    {
+
+        font-size: 0.9rem;
+
+    }
+
 }
 
 /* medium mobile*/
@@ -1267,6 +1306,45 @@
     {
 
         margin-left: 2%;
+
+    }
+
+    /*contacts_mobile*/
+
+    .subtitle
+    {
+
+        font-size: 1rem;
+
+    }
+
+    .contacts_title
+    {
+
+        font-size: 1.4rem
+
+    }
+
+    .informations_contacts_informations
+    {
+
+        font-size: 0.9rem;
+
+    }
+
+    #mail
+    {
+
+        width: 40%;
+        height: 40px;
+        font-size: 0.6rem;
+
+    }
+
+    p.footer
+    {
+
+        font-size: 0.9rem;
 
     }
 
@@ -1959,6 +2037,45 @@
     {
 
         margin-left: 2%;
+
+    }
+
+    /*contacts_mobile*/
+
+    .subtitle
+    {
+
+        font-size: 1rem;
+
+    }
+
+    .contacts_title
+    {
+
+        font-size: 1.4rem
+
+    }
+
+    .informations_contacts_informations
+    {
+
+        font-size: 0.9rem;
+
+    }
+
+    #mail
+    {
+
+        width: 40%;
+        height: 40px;
+        font-size: 0.6rem;
+
+    }
+
+    p.footer
+    {
+
+        font-size: 0.9rem;
 
     }
 
@@ -2657,6 +2774,45 @@
     {
 
         margin-left: 12%;
+
+    }
+
+    /*contacts_mobile*/
+
+    .subtitle
+    {
+
+        font-size: 1rem;
+
+    }
+
+    .contacts_title
+    {
+
+        font-size: 1.4rem
+
+    }
+
+    .informations_contacts_informations
+    {
+
+        font-size: 0.9rem;
+
+    }
+
+    #mail
+    {
+
+        width: 40%;
+        height: 40px;
+        font-size: 0.6rem;
+
+    }
+
+    p.footer
+    {
+
+        font-size: 0.9rem;
 
     }
 
