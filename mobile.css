@@ -599,6 +599,13 @@
 
     }
 
+    p#uni 
+    {
+
+        font-size: 0.9rem;
+
+    }
+
 }
 
 /* medium mobile*/
@@ -1061,6 +1068,13 @@
      {
  
          margin-top: -2.5%;
+ 
+     }
+
+     p#uni 
+     {
+ 
+         font-size: 0.9rem;
  
      }
     
@@ -1657,6 +1671,13 @@
          margin-top: -2.5%;
  
      }
+
+     p#uni 
+     {
+ 
+         font-size: 0.9rem;
+ 
+     }
     
 
 }
@@ -2240,6 +2261,13 @@
     {
 
         margin-top: -2.5%;
+
+    }
+
+    p#uni 
+    {
+
+        font-size: 0.9rem;
 
     }
 

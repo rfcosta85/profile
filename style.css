@@ -946,3 +946,125 @@ hr.course
     margin-left: -7.5%;
 
 }
+
+/*Services Section*/
+
+#portfolio
+{
+
+    width: 100%;
+    height: 800px;    
+        
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.842)), url('kvistholt-photography-oZPwn40zCK4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+}
+
+.portfolio_informations
+{
+
+    width: 50%;
+    margin: auto;
+
+}
+
+.services
+{
+    
+    color: var(--pink_colors_for_dark_backgrounds);
+    text-align: center;
+    padding-top: 18%;
+    font-size: 1.65rem;
+
+}
+
+.services_titles
+{
+
+    color: var(--white_colors_for_dark_backgrounds);
+    text-align: center;
+    padding-top: 1%;
+    font-size: 2rem;
+
+}
+
+.services_text
+{
+
+    color: rgb(180, 180, 180);
+    text-align: center;
+    padding-top: 2.5%;
+    font-size: 1.25rem;
+
+}
+
+.solutions
+{
+
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 8%;
+
+}
+
+.title_solution
+{
+
+    color: var(--white_colors_for_dark_backgrounds);
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 25%;
+    font-size: 1.4rem;
+
+}
+
+.html
+{
+
+    height: 35px;
+    background-color: var(--white_colors_for_dark_backgrounds);
+    border-radius: 50%;
+    padding: 1%;
+    width: 3%;
+    margin-left: 23%; 
+    margin-top: 6%;   
+    
+}
+
+.css
+{
+    
+    height: 35px;
+    background-color: var(--white_colors_for_dark_backgrounds);
+    border-radius: 50%;
+    padding: 1%;
+    width: 3%;
+    margin-left: 18%; 
+    margin-top: 6%; 
+
+}
+
+.js 
+{
+
+    height: 35px;
+    background-color: var(--white_colors_for_dark_backgrounds);
+    border-radius: 50%;
+    padding: 1%;
+    width: 3%;
+    margin-left: 18%; 
+    margin-top: 6%; 
+
+}
+
+.html_descriptions
+{
+
+    color: rgb(180, 180, 180);
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 8%;
+
+}
